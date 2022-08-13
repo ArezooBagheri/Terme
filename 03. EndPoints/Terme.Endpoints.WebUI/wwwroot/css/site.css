@@ -1,0 +1,46 @@
+﻿@import url('../IRANSans/css/fontiran.min.css');
+.jumbotron {
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+    margin-bottom: 0;
+    background-color: #fff;
+}
+
+
+@media (min-width: 768px) {
+    .jumbotron {
+        padding-top: 6rem;
+        padding-bottom: 6rem;
+    }
+}
+
+body {
+    text-align: right !important;
+    font-family: IRANSans !important;
+    font-weight: 300;
+}
+
+.jumbotron p:last-child {
+    margin-bottom: 0;
+}
+
+.jumbotron h1 {
+    font-weight: 500;
+}
+
+.jumbotron .container {
+    max-width: 40rem;
+}
+.mr-2, .mx-2 {
+    margin-left: .5rem !important;
+    margin-right:0 !important;
+}
+footer {
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+}
+
+    footer p {
+        margin-bottom: .25rem;
+    }
+    
